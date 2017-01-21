@@ -1,7 +1,9 @@
 <template name="lista">
+
   <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>item 3</li>
+    {{#each tarefas}}
+    <li>{{nome}}</li>
+    {{/each}}
   </ul>
-<template>
+
+</template>
